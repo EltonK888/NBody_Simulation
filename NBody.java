@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class NBody {
 
-    /* To use: java NBody 157788000.0(Total time) 25000.0(Time step) ..\cs61b\cs61b-sp2018\proj0\data\planets.txt(filename) */
+    /* To use: java NBody 157788000.0(Total time) 25000.0(Time step) data\planets.txt(filename) */
     public static void main(String[] args) {
         // read in the time and file
         double T = Double.parseDouble(args[0]);
